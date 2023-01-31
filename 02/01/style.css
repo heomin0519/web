@@ -107,7 +107,7 @@ p > span{
     margin-bottom: 20px;
 }
 
-/* 사진 링크들? */
+/* 사진 링크들? (01/31) 
 
 #picture{
     width: 1024px;
@@ -124,6 +124,27 @@ p > span{
 }
 
 .photo_box > div> p{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+*/
+
+#picture{
+    width: 1024px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.photo_box > a > img{
+    width: 120px;
+    height: 78px;
+    padding-bottom: 16px;
+}
+
+.photo_box > a > p{
     font-size: 14px;
     font-weight: bold;
     text-align: center;
