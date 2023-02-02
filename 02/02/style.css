@@ -53,6 +53,7 @@ a {
 
 body{
     background-color: #f5f5f7;
+    height: 1500px; /*임시*/
 }
 
 header{
@@ -84,13 +85,13 @@ nav > ul{
     width: 534px;;
 }
 
-#main_text > p{
+#main_text > h1{
     color:rgb(116, 116, 116);
     font-size: 40px;
     font-weight: bold;
 }
 
-p > span{
+h1 > span{
     color: black;
 }
 
@@ -137,22 +138,15 @@ p > span{
 
 /* 따끈따끈 신제품편 */
 
-#new_text{
-    width: 980px;
-    height: 50px;
-    margin: 100px 0px 0px 230px;
-    font-size: 28px;
-    font-weight: bold;
-    color:rgb(116, 116, 116);
-}
 
 #new_product {
-    width: 1024px;
-    margin: 0px 0px 0px 140px;
-    background-position: center ;
+    width: 1240px;
+    margin: 0px auto;
+}
+
+#new_product > div{
     display: flex;
     justify-content: space-between;
-    border-radius: 50px;
 }
 
 .macbook > a > p{
@@ -188,21 +182,21 @@ p > span{
 .macbook > a > img{
     width: 400px;
     height: 500px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-right: 20px;
 }
 
 .macmini > a > img{
     width: 400px;
     height: 500px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-right: 20px;
 }
 
 .apple_student_sale > a > img{
     width: 400px;
     height: 500px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-right: 20px;
 }
 
