@@ -135,7 +135,7 @@ p > span{
     text-align: center;
 }
 
-/*----------------------------------*/
+/* 따끈따끈 신제품편 */
 
 #new_text{
     width: 980px;
@@ -159,48 +159,50 @@ p > span{
     position: absolute;
     color: white;
     line-height: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .macmini > a > p{
     position: absolute;
-    color: black;
+    color: white;
+    line-height: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .apple_student_sale > a > p{
     position: absolute;
     color: black;
+    line-height: 35px;
+    font-size: 28px;
+    font-weight:bolder;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .macbook > a > img{
     width: 400px;
     height: 500px;
-    padding-left: 15px;
     border-radius: 25px;
+    margin-right: 20px;
 }
 
 .macmini > a > img{
     width: 400px;
     height: 500px;
-    padding-left: 15px;
     border-radius: 25px;
+    margin-right: 20px;
 }
 
 .apple_student_sale > a > img{
     width: 400px;
     height: 500px;
-    padding-left: 15px;
     border-radius: 25px;
+    margin-right: 20px;
 }
 
-strong{
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.title{
-    font-size: 12px;
-}
-
-.money{
-    font-size: 17px;
-}
