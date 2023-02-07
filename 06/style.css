@@ -195,7 +195,7 @@ h1 > span {
     margin-bottom: 20px;
 }
 
-/*============= main > productcategory_container ==============*/
+/*-------------------여러가지 사진들_container -----------------*/
 
 #productcategory_container {
     display: flex;
@@ -216,20 +216,20 @@ h1 > span {
     text-align: center;
 }
 
-/*============= main > newproduct_section ==============*/
+/*---------------------최신제품 section------------------*/
 
 #newproduct_section {
     width: 1240px;
     margin: 0 auto 54px auto;
 }
 
-#newproduct_section > h2 {
+.content_title{
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 24px;
 }
 
-#newproduct_section > h2 > span {
+.content_title > span {
     color: #6e6e73;
 }
 
@@ -292,11 +292,11 @@ h1 > span {
     color: #1d1d1f;
 }
 
-/*---------------------2023.02.03 수업내용--------------------*/
+/*---------------------필수 악세서리 section--------------------*/
 
 #accproduct_section{
     width:1066px;
-    margin:0px auto 75px auto;
+    margin:0px auto;
 }
 
 #accproduct_section > h2 {
@@ -355,7 +355,7 @@ h1 > span {
     border-radius: 20px;
     background-color: #fff;
 }
-/*----------------2023.02.06 수업내용-----------------*/
+
 .acc_product > img{
     width:230px;
     height:230px;
@@ -389,103 +389,66 @@ h1 > span {
     color: #1d1d1f;
     font-weight: 400px;
 }
-/*--도움의 손길 section--*/
+/*------------------------도움의 손길 section--------------------*/
 
-#help{
-    width:1066px;
-    margin:0px auto;
-
+#help_section{
+    width:980px;
+    height: 560px;
+    margin:54px auto 0px auto;
 }
 
-#help > h2 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 24px;
-}
-
-#help > h2 > span {
-    color: #6e6e73;
-}
-
-
-
-#apple_specialist{
-    display:flex;
+#helpcontents_container{
+    display: flex;
     justify-content: space-between;
 }
-
-.online{
-    width:480px;
-    height:500px;
-    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-valentines-day-202301?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1673037582915");
+#helpcontents_container > div {
+    width: 480px;
+    height: 500px;
+    box-sizing: border-box;
     border-radius: 20px;
 }
-
-.online > div{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width:340px;
-    height: 97px;
+#helpcontents_container > div:first-child{
+    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-50-specialist-help-202211_GEO_KR?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1671226469129");
     padding: 30px;
+    background-size: cover;
 }
-
-.acc_info > div > p:nth-child(1){
-    font-size:12px;
-    color:#6E6E73;
-    font-weight: bold;
-}
-
-.acc_info > div > p:nth-child(2){
-    font-size:28px;
-    color:#EC3217;
-    font-weight: bold;
-}
-
-.acc_info > div > p:nth-child(3){
-    font-size:17px;
-    color:#1D1D1F;
-    font-weight: 400;
-}
-
-.acc_product{
-    width:253px;
-    height:440px;
-    padding:30px;
-    border-radius: 20px;
-    background-color: #fff;
-}
-
-.acc_product > img{
-    width:230px;
-    height:230px;
-    padding-top: 41px;
-    display: block;
-    margin: 0px auto;
-}
-
-.acc_product > div{
-    height: 110px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 62px;
-}
-
-.acc_product > div > p:nth-child(1){
+#helpcontents_container > div:first-child > h3{
     font-size: 12px;
-    color: #bf4800;
-    font-weight: 400px;
+    color: #6e6e73;
+    font-weight: 600px;
+    margin-bottom: 13px;
 }
-
-.acc_product > div > h3{
-    font-size: 17px;
-    color: #1d1d1f;
+#helpcontents_container > div:first-child > p{
+    font-size: 28px;
+    color: #12121f;
     font-weight: 600px;
 }
 
-.acc_product > div > p:nth-child(3){
-    font-size: 14px;
+#helpcontents_container > div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#helpcontents_container > div:nth-child(2) > div{
+    width: 480px;
+    height: 240px;
+    border-radius: 20px;
+}
+#helpcontents_container > div:nth-of-type(2) > div:nth-of-type(1){
+    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-25-apps-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626223748000");
+    padding: 30px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#helpcontents_container > div:nth-of-type(2) > div:nth-of-type(2){
+    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000");
+    padding: 30px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#helpcontents_container > div:nth-of-type(2) > div >p{
+    font-size: 24px;
     color: #1d1d1f;
-    font-weight: 400px;
+    font-weight: 600px;
 }
