@@ -1,0 +1,5 @@
+ul li:nth-of-type(3){
+    width: 100px;
+    height: 40px;
+    background-color: #e6e6e6;
+}
