@@ -16,80 +16,68 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+   display: block;
 }
 body {
-	line-height: 1;
+   line-height: 1;
 }
 ol, ul {
-	list-style: none;
+   list-style: none;
 }
 blockquote, q {
-	quotes: none;
+   quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+   content: '';
+   content: none;
 }
 table {
-	border-collapse: collapse;
+   border-collapse: collapse;
+   border-spacing: 0;
 }
-/*--------------------------- css reset code ------------------------------*/
-
+/*===============reset===================*/
 header{
+   position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
     line-height: 30px;
-    margin: 30px 0px;
-}
+    margin: 30px 0px;   
 
-#left_button{
+}
+header>div>img{
+    width: 120px;
+    height: 26px;
     margin-left: 50px;
 }
-
-#main_button{
-    width: 720px;
-    height: 78px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ffffff;
+nav>ul{
+    width: 900px;
     display: flex;
-    justify-content:space-evenly;
-}
-
-#right_button{
-    font-size: 12px;
-    color: #ffffff;
-}
-
-#main_text > div > p{
-    font-size: 52px;
+    justify-content: space-around;
+    font-size: 17px;
     font-weight: bold;
-    color: #ffffff;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 400px;
-    margin-left: 100px;
-    letter-spacing: -1px;
-    line-height: 70px;
+    color: black;/*----임시------*/
+}
+#edge_nav{
+    margin-right: 50px ;
 }
 
-#nav_box {
-    width: 254px;
-    height: 157px;
-    display: flex;
-    justify-content: space-between;
+/*-------------------main--------------*/
+#maincover_container{
+   width: 100%;
+   height: 870px;
+   background-image: url("https://www.orionworld.com/theme/102114/kr/assets/images/main/cover_img03.jpg?v=221208");
+    background-size: cover;
+    background-repeat:no-repeat;
 }
