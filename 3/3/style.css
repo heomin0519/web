@@ -48,5 +48,92 @@ table {
 }
 
 /*-------------------reset code--------------------*/
+#login_box{
+	width: 700px;
+	height: 400px;
+	border-radius: 20px;
+	margin: 50px 100px 50px 200px;
+	box-shadow: -2px -2px 20px -15px;
+	background-color: #fffefe;
+	padding: 100px 100px 180px 100px;
+}
 
+.login_box_text{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(140, 219, 245);
+	margin-bottom: 15px;
+}
 
+#login_content > h1{
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
+}
+
+#login_content > p {
+	font-size: 12px;
+	color: rgb(92, 171, 251);
+	margin-top: -13px;
+	margin-bottom: 15px;
+}
+
+#login_content > input{
+	width: 350px;
+	height: 40px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	border-style: hidden;
+	border: 2px solid rgb(212, 212, 212);
+}
+
+label{
+	color: black;
+	font-size: 13px;
+}
+
+button{
+	width: 370px;
+	height: 50px;
+	color: azure;
+	background-color: rgb(255, 202, 142);
+	border-style: hidden;
+	border-radius: 5px;
+}
+
+#other_content > p:nth-of-type(1){
+	text-align: center;
+	margin-left: -300px;
+	margin-top: 50px;
+	font-size: 14px;
+	color: rgb(159, 159, 159);
+}
+
+#other_content > p:nth-of-type(2){
+	text-align: center;
+	margin-left: -300px;
+	margin-top: 30px;
+	font-size: 16px;
+	color: rgb(159, 159, 159);
+}
+
+#other_content > p:nth-of-type(2) > span{
+	color: rgb(74, 154, 235);
+	font-size: 17px;
+}
+
+#other_content > input{
+	width: 120px;
+	height: 50px;
+	background-color: white;
+	border-style: hidden;
+	border-color: #e6e6e6;
+	border-radius: 5px;
+	border: 2px solid rgb(212, 212, 212);
+}
+
+input::placeholder{
+	color:rgb(159, 159, 159)
+}
