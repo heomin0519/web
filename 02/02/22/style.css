@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+}
+/*--------------------------- css reset code ------------------------------*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+#left_button{
+    margin-left: 50px;
+}
+
+#main_button{
+    width: 720px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#right_button{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#main_text > div > p{
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 100px;
+    letter-spacing: -1px;
+    line-height: 70px;
+}
+
+#main_text > div > img {
+    width: 100%;
+}
+
+#first_section {
+    display: flex;
+    justify-content: center;
+}
+
+.contentbox > img {
+    width: 300px;
+    height: 200px;
+    margin-top: -250px;
+    margin-right: 10px;
+}
+
+.contentbox > p{
+    font-size: 31.5px;
+    font-weight: bold;
+    position: absolute;
+    top: 800px;
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#title_section{
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+#title_section > h1{
+    font-size: 38.5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#title_section > p{
+    font-size: 17.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#title_content{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 10px;
+
+    grid-template-areas: 
+    "col1 col2 col3 col4"
+    "col5 col6 col7 col4";
+
+    justify-content:center;
+}
+
+#title_content > div:nth-child(4){
+    grid-area: col4;
+}
+
+#title_content > div{
+    position: relative;
+    top: 10px;
+}
+
+#title_content > div > p{
+    font-size: 31.5px; 
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+
+#title_content > div:nth-child(1):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(1)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 130, 24, 0.85);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#title_content > div:nth-child(2):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(2)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(83, 162, 253, 0.87);;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#title_content > div:nth-child(3):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(3)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(73, 221, 24, 0.85);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#title_content > div:nth-child(4):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(4)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 252, 176, 0.85);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#title_content > div:nth-child(5):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(5)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 66, 254, 0.85);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#title_content > div:nth-child(6):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(6)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 24, 221, 0.85);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#title_content > div:nth-child(7):hover::before {
+    opacity: 1;
+}
+
+#title_content > div:nth-child(7)::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 31, 24, 0.85);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.Management_item > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.Management_item > div > p:nth-child(1) {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Management_item > div > p:nth-child(2) {
+    font-size: 18px;
+    line-height: 22px;
+    transform: translateY(100px);
+    transition-duration: 0.7s;
+    opacity: 0;
+}
+
+.Management_item:hover > div > p:nth-child(2) {
+    transform: translateY(20px);
+    opacity: 1;
+}
