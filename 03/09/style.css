@@ -193,6 +193,20 @@ header > nav > ul > :first-child {
     border-bottom: 3px solid;
 }
 
+#sale_box{
+    width: 100%;
+    height: 400px;
+    background-color: lavender;
+}
+
+#main_boxs > ul > li{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(209, 196, 59);
+    display: contents;
+    justify-content: space-between;
+
+}
 @media (min-width:1024px) {
     header > ul {
         display: flex;
